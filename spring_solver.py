@@ -81,8 +81,8 @@ else:
         x = math.sqrt(inside_sqrt)
 
         # Result
-        st.subheader("Result")
-        st.metric(label="Spring stretch — x", value=f"{x:.6f} m")
+st.markdown("<h3 style='text-align: center;'>Result</h3>", unsafe_allow_html=True)
+st.markdown(f"<h2 style='text-align: center;'> x = {x:.6f} m</h2>", unsafe_allow_html=True)
 
         # Step-by-step breakdown
         with st.expander("📐 Step-by-step breakdown"):
