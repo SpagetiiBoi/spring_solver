@@ -1,13 +1,13 @@
 import streamlit as st
 import math
 
-st.set_page_config(page_title="Spring Stretch Solver", page_icon="🔩", layout="centered")
+st.set_page_config(page_title="Spring Stretch Solver", layout="centered")
 
 st.markdown(
     "<h1 style='text-align: center;'>Spring Stretch Solver</h1>",
     unsafe_allow_html=True
 )
-st.markdown("<h1 style='text-align: center;'>Calculates the stretch distance **x** of a spring using this equation:</h1>",
+st.markdown("<h1 style='text-align: center;'>Calculates the stretch distance 'x' of a spring using this equation:</h1>",
     unsafe_allow_html=True
 )
 st.latex(r"x = \sqrt{\frac{m \left[\frac{\Delta d \cdot g}{2 \sin(\theta)\cos(\theta)}\right]}{k}}")
