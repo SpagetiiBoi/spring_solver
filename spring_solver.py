@@ -85,7 +85,7 @@ st.markdown("<h3 style='text-align: center;'>Result</h3>", unsafe_allow_html=Tru
 st.markdown(f"<h2 style='text-align: center;'> x = {x:.6f} m</h2>", unsafe_allow_html=True)
 
         # Step-by-step breakdown
-with st.expander("📐 Step-by-step breakdown"):
+with st.expander("Calculation Breakdown"):
         st.markdown(f"**Step 1 — Trig functions:**")
         st.markdown(f"- sin({theta_deg}°) = `{sin_theta:.6f}`")
         st.markdown(f"- cos({theta_deg}°) = `{cos_theta:.6f}`")
