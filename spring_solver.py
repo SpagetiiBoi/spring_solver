@@ -85,20 +85,20 @@ st.markdown("<h3 style='text-align: center;'>Result</h3>", unsafe_allow_html=Tru
 st.markdown(f"<h2 style='text-align: center;'> x = {x:.6f} m</h2>", unsafe_allow_html=True)
 
         # Step-by-step breakdown
-        with st.expander("📐 Step-by-step breakdown"):
-            st.markdown(f"**Step 1 — Trig functions:**")
-            st.markdown(f"- sin({theta_deg}°) = `{sin_theta:.6f}`")
-            st.markdown(f"- cos({theta_deg}°) = `{cos_theta:.6f}`")
+with st.expander("📐 Step-by-step breakdown"):
+        st.markdown(f"**Step 1 — Trig functions:**")
+        st.markdown(f"- sin({theta_deg}°) = `{sin_theta:.6f}`")
+        st.markdown(f"- cos({theta_deg}°) = `{cos_theta:.6f}`")
 
-            st.markdown(f"**Step 2 — Multiply inside brackets:**")
-            st.markdown(f"- 2 × sin(θ) × cos(θ) = `{denominator_trig:.6f}`")
-            st.markdown(f"- Δd × g = {delta_d} × {g} = `{delta_d * g:.6f}`")
+        st.markdown(f"**Step 2 — Multiply inside brackets:**")
+        st.markdown(f"- 2 × sin(θ) × cos(θ) = `{denominator_trig:.6f}`")
+        st.markdown(f"- Δd × g = {delta_d} × {g} = `{delta_d * g:.6f}`")
 
-            st.markdown(f"**Step 3 — Divide (resolve bracket):**")
-            st.markdown(f"- Δd·g / (2·sin·cos) = `{bracket:.6f}`")
+        st.markdown(f"**Step 3 — Divide (resolve bracket):**")
+        st.markdown(f"- Δd·g / (2·sin·cos) = `{bracket:.6f}`")
 
-            st.markdown(f"**Step 4 — Multiply by m, divide by k:**")
-            st.markdown(f"- m × bracket / k = {m} × {bracket:.6f} / {k} = `{inside_sqrt:.6f}`")
+        st.markdown(f"**Step 4 — Multiply by m, divide by k:**")
+        st.markdown(f"- m × bracket / k = {m} × {bracket:.6f} / {k} = `{inside_sqrt:.6f}`")
 
-            st.markdown(f"**Step 5 — Square root:**")
-            st.markdown(f"- x = √{inside_sqrt:.6f} = **`{x:.6f} m`**")
+        st.markdown(f"**Step 5 — Square root:**")
+        st.markdown(f"- x = √{inside_sqrt:.6f} = **`{x:.6f} m`**")
