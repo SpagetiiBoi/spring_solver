@@ -3,7 +3,7 @@ import math
 
 st.set_page_config(page_title="Spring Stretch Solver", page_icon="🔩", layout="centered")
 
-st.title("🔩 Spring Stretch Solver")
+st.title("Spring Stretch Solver")
 st.markdown("Calculates the stretch distance **x** of a spring using:")
 st.latex(r"x = \sqrt{\frac{m \left[\frac{\Delta d \cdot g}{2 \sin(\theta)\cos(\theta)}\right]}{k}}")
 
