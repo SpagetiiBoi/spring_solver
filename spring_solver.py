@@ -81,7 +81,7 @@ else:
         x = math.sqrt(inside_sqrt)
 
         # Result
-st.markdown(f"<h2 style='text-align: center;'>Strech the spring {x:.6f} m</h2>", unsafe_allow_html=True)
+st.markdown(f"<h2 style='text-align: center;'>Strech the spring {x:.6f}m</h2>", unsafe_allow_html=True)
 
         # Step-by-step breakdown
 with st.expander("Calculation Breakdown"):
