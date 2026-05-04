@@ -2,7 +2,6 @@ import streamlit as st
 import math
 
 st.set_page_config(page_title="Spring Stretch Solver", page_icon="https://imgur.com/a/6tWJySg", layout="centered")
-st.image("https://imgur.com/a/6tWJySg", width=100)
 
 st.markdown(
     "<h1 style='text-align: center;'>Spring Stretch Solver</h1>",
