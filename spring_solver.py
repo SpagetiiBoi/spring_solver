@@ -78,7 +78,7 @@ else:
     if inside_sqrt < 0:
         st.error("⚠️ The value inside the square root is negative. Check your inputs.")
     else:
-        x = math.sqrt(inside_sqrt)
+        x = 10 * math.sqrt(inside_sqrt)
 
         # Result
 st.markdown(f"<h2 style='text-align: center;'>Stretch the spring to a lenth of x = {x:.6f}m</h2>", unsafe_allow_html=True)
