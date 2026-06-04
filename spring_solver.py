@@ -68,9 +68,9 @@ else:
     if inside_sqrt < 0:
         st.error("⚠️ The value inside the square root is negative. Check your inputs.")
     else:
-        x = 10 * math.sqrt(inside_sqrt)
+        x = math.sqrt(inside_sqrt)
         # Result
-st.markdown(f"<h2 style='text-align: center;'>Stretch the spring to a length of x = {x:.3f} cm</h2>", unsafe_allow_html=True)
+st.markdown(f"<h2 style='text-align: center;'>Stretch the spring to a length of x = {x:.3f} m</h2>", unsafe_allow_html=True)
         # Step-by-step breakdown
 with st.expander("Calculation Breakdown"):
         st.markdown(f"**Step 1 — Trig functions:**")
